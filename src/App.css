@@ -1,0 +1,105 @@
+#dashboard {
+  background-color: #28d6d6;
+  color: #020202f8;
+  padding: 20px;
+  width: 250px;
+  height: 94vh;
+  transition: all 0.5s ease-in-out;
+  overflow-y: auto; 
+}
+
+.dashboard-responsive {
+  left: 0;
+}
+
+.dashboard-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.dashboard-brand {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.icon_header {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.close_icon {
+  cursor: pointer;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.close_icon:hover {
+  color: #ccc;
+}
+
+#Home {
+  background-image: url('ztask.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* Color del texto */
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ccdbf3;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icon {
+  vertical-align: middle;
+  line-height: 1px;
+  font-size: 20px;
+}
+.icon_header {
+  vertical-align: middle;
+  line-height: 1px;
+  font-size: 26px;
+}
+.icon, .icon_header {
+  margin-right: 5px;
+}
+
+.close_icon {
+  color: red;
+  margin-left: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+  
+  .grid-container {
+    display: flex;      
+    justify-content: center;
+    align-items: center;
+    float: right ;
+    margin-left: 10px;    
+    height: 80vh;
+  }
+
+  .contenedor-dashboard{
+    display: flex;
+    gap: 2rem;
+    overflow-y: auto; 
+    box-sizing: border-box;
+  }

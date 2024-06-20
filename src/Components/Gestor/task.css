@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ccdbf3;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    background-color: white;
+  }
+  
+  .card-to-do {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .input-group-text {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  .card-footer {
+    background-color: #f8f9fa;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+  }
+  
+  .btn {
+    border-radius: 5px;
+    border: none;
+    padding: 8px 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+    .card {
+       width: 400px;
+     }
+    .table {
+       font-size: 0.8rem;
+     }
+   }
+
+   @media (max-width: 480px) {
+    .card {
+       width: 300px;
+     }
+    .table {
+       font-size: 0.6rem;
+     }
+    
+     .text-center {
+      text-align: center;
+    }
+   }
+
+   
